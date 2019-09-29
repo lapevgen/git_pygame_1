@@ -14,6 +14,10 @@ def draw_flag():
     color1 = pygame.Color(0, 0, 255)
     pygame.draw.rect(screen, color1, (50, 70, 300, 50), 0)
 
+    # красная полоса
+    color1 = pygame.Color(0, 255, 0)
+    pygame.draw.rect(screen, color1, (50, 120, 300, 50), 0)
+
 
 pygame.init()
 size = width, height = 800, 450  # размер окна
