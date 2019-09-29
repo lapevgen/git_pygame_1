@@ -6,6 +6,10 @@ def draw_flag():
     color = pygame.Color(255, 255, 20)
     pygame.draw.rect(screen, color, (20, 20, 30, 420), 0)
 
+    # белая полоса
+    color1 = pygame.Color(255, 255, 255)
+    pygame.draw.rect(screen, color1, (50, 20, 300, 50), 0)
+
     # синяя полоса
     color1 = pygame.Color(0, 0, 255)
     pygame.draw.rect(screen, color1, (50, 70, 300, 50), 0)
